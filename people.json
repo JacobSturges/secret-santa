@@ -1,0 +1,7 @@
+[
+	{"email": "example1@gmail.com", "name": "person1", "id": 1, "partner": 2},
+	{"email": "example3@gmail.com", "name": "person2", "id": 3, "partner": -1},
+	{"email": "example4@gmail.com", "name": "person3", "id": 4, "partner": -1},
+	{"email": "example2@gmail.com", "name": "person4", "id": 2, "partner": 1},
+	{"email": "example5@gmail.com", "name": "person5", "id": 5, "partner": -1}
+]
