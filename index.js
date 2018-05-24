@@ -112,8 +112,8 @@ function sendEmail(gifter, target) {
 
 
 	let message = {
-	    to: 'sturgessecretsantas@gmail.com',
-	    subject: 'Message title',
+	    to: gifter.email,
+	    subject: 'Secret Santa',
 	    text: 'Hey ' + gifter.name + '\n\nYour Secret Santa Target is ' + target.name
 	};
 
