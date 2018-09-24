@@ -1,4 +1,4 @@
-#Secret Santa
+<h1> Secret Santa</h1>
 
 I created this project so that when my family is doing our yearly secret santa I can email each person the person they have without any one person in the circles knowing who has who.
 
@@ -7,9 +7,9 @@ I recgonise there where a tonne of simpiliar solutions to this problem then this
 It would be awesome if anyone who saw this had any feedback code style wise as I have recently adjusted it quite a bit to include alot more promises to avoid callback hell.
 
 
-##Usage
+<h2>Usage</h2>
 
-###people.json
+<h3>people.json</h3>
 First you have to edit the  people.json file so that it represents the group you are doing the secret santa with.
 
 
@@ -26,7 +26,7 @@ First you have to edit the  people.json file so that it represents the group you
 Where email is the persons email address, name is there name, id a unique number you assign them and partner being there partners id (-1 if zero). Note the partner is their to stop someone being partnered with their husband, wife, boyfreind, etc.
 
 
-###Enviroment Variables
+<h3>Enviroment Variables</h3>
 Then you will need to provide this program with the variables it needs to send the emails from a given address. This being a email address, that emails pass and a email host. eg
 
 SENDER_EMAIL
@@ -48,7 +48,7 @@ export SENDER_HOST=smtp.gmail.com
 ```
 
 
-###Running
+<h3>Running</h3>
 Once you are setup you need to run 
 
 ```
@@ -59,13 +59,4 @@ to install the all required modules. Then to run the code run
 ```
 npm start
 ```
-
-
-
-
-
-
-
-
-
 
